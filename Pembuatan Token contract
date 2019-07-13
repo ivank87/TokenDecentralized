@@ -1,1 +1,15 @@
 
+Error: CONNECTION ERROR: Couldn't connect to node on WS.
+    at Object.InvalidConnection (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\web3-core-helpers\src\errors.js:35:16)
+    at WebsocketProvider._timeout (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\web3-providers-ws\src\index.js:249:48)
+    at W3CWebSocket.connection.onclose (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\web3-providers-ws\src\index.js:149:15)
+    at W3CWebSocket._dispatchEvent [as dispatchEvent] (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\yaeti\lib\EventTarget.js:107:17)
+    at W3CWebSocket.onClose (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\websocket\lib\W3CWebSocket.js:228:10)
+    at WebSocketConnection.<anonymous> (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\websocket\lib\W3CWebSocket.js:201:17)
+    at emitTwo (events.js:125:13)
+    at WebSocketConnection.emit (events.js:213:7)
+    at WebSocketConnection.handleSocketClose (C:\Users\zahabat\AppData\Local\Programs\Ganache\resources\app.asar\node_modules\websocket\lib\WebSocketConnection.js:387:14)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:549:12)
+    
